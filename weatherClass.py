@@ -1,5 +1,13 @@
 import urllib2 as net
 import xml.dom.minidom as xDom
+
+'''
+            pyWeather
+A wrapper for Google's hidden weather api
+'''
+
+
+
 class weather:
     api = "http://www.google.com/ig/api?weather="
     stats = {}
